@@ -57,12 +57,13 @@ body{
     width: 50%;
 }
 
+.price, .whyus{
+    text-align: center;
+}
 .price h3 .whyus h3{
-    margin-bottom: 5px;
-    margin: 10px;
-    justify-content: space-between;
-    text-align: left;
-    padding: 10px;
+    margin: 10px 0;
+    display: block;
+    
 }
 
 .price p {
