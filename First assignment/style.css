@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    background-color: #e0f2f7;
+    font-family: arial,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.Container{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 600px;
+    max-width: 90%;
+}
+
+.card{
+    padding: 20px;
+    text-align: left;
+}
+
+.card h1 {
+    color: rgb(120, 201, 228);
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    color: #b5e61d;
+    margin-bottom: 20px;
+}
+.card p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.subscription {
+    display:flex ;
+    justify-content: space-between;
+    color: white;
+    border-radius: 0%;
+}
+
+.subscription .leftcoloum {
+    color: white;
+    background-color: #0ea5a2;
+    justify-items: auto;
+    margin: 0px;
+    width: 50%;
+}
+
+.price .whyus {
+    padding: 20px;
+    width: 50%;
+}
+
+.price h3 .whyus h3{
+    margin-bottom: 5px;
+    margin: 10px;
+    justify-content: space-between;
+    text-align: left;
+    padding: 10px;
+}
+
+.price p {
+    margin: 7px;
+    color: rgb(255, 255, 255);
+}
+
+.price span {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.price button {
+    background-color: #B9D843;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius: 6px;
+    margin: 45px;
+    margin-bottom: auto;
+}
+
+.subscription .rightcoloum {
+    background-color: #4ebbb9;
+    margin: 0px;
+    width: 50%;
+}
+
+.whyus ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+.whyus li {
+    text-align: left;
+    margin: 5px;
+    text-decoration: none;
+    color: rgba(231, 220, 220, 0.918);
+}
